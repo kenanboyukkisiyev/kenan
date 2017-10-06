@@ -1,0 +1,28 @@
+.a{
+	color: white;
+}
+
+
+
+.fa-map-marker:before {
+    content: "\f041";
+        color: #f9ad40;
+    margin: 5px;
+}
+
+.fa-envelope:before {
+	margin: 5px;
+	    color: #f9ad40;
+    content: "\f0e0";
+}
+
+.fa-phone-square:before {
+     margin: 5px;
+         color: #f9ad40;
+    content: "\f098";
+}
+
+.nav-home{
+	margin-left: 470px;
+}
+
