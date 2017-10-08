@@ -23,6 +23,117 @@
 }
 
 .nav-home{
-	margin-left: 470px;
+	margin-left: 200px;
 }
 
+.event{
+    padding: 100px;
+    background-color: #F4F6F9;
+}
+
+
+.-Events{
+font-size: 40px;
+margin-left: -115px;
+}
+
+.book li{
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 50%;
+    width:25px;
+    text-align: center;
+    
+}
+.book{
+   
+}
+a {
+   
+ 
+}
+
+
+button{
+    background-color: blue;
+    color:white;
+}
+
+
+.hoder :hover{
+    color: white;
+    background-color:#; 
+
+}
+
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.btn-events{
+    background-color: blue;
+    border-radius: 20%;
+    color: white;
+
+}
+
+.btn-events:hover{
+    background-color:#f9ad40;
+
+}
+
+.btn{
+    padding: 85px 0;
+    color: white;
+}
+
+
+.fa-angle-left:before {
+   
+    position: absolute;
+    font-size: 30px;
+    content: "\f104";
+    left: 0px;
+    bottom: 60px;
+}
+
+
+.fa-angle-right:before {
+   
+           position: absolute;
+    right:0;
+    bottom: 50px;
+    font-size: 30px;
+    
+    content: "\f105";
+}
+
+h5{
+    font-size: 20px;
+}
+
+.img{
+    float: left;
+}
+
+.marks{
+    padding: 50px 0;
+     background-color: #F4F6F9;
+}
+.tayva{
+        position: relative;
+    top: 300px;
+    right: 424px;
+}
+.text {
+    float: right;
+    margin-left: 670px;
+    margin-top: -294px;
+    
+
+}
+.Podcast{
+
+}
