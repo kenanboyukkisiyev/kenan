@@ -1,0 +1,49 @@
+.a{
+	color: white;
+}
+.container{
+    width: 1565px;
+    height: 372px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 70px;
+    padding-left: 70px;
+}
+
+.meskan {
+            color: #f9ad40;
+    margin: 5px;
+}
+
+.fa-envelope:before {
+	margin: 5px;
+	    color: #f9ad40;
+    content: "\f0e0";
+}
+
+.fa-phone-square:before {
+     margin: 5px;
+         color: #f9ad40;
+    content: "\f098";
+}
+.text h1{
+	text-align: center;
+	margin-top: -250px;
+	color: white;
+}
+
+.text p{
+	text-align: center;
+	margin-top: 180px;
+	color:white;
+    padding: 3px;
+}
+
+.text a{
+	 color: #f9ad40;
+}
+.school{
+   height: 347px;
+    margin-left: -94px;
+
+}
