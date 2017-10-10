@@ -1,0 +1,61 @@
+.a{
+    color: white;
+}
+
+
+.meskan {
+            color: #f9ad40;
+    margin: 5px;
+}
+
+.email {
+    margin: 5px;
+        color: #f9ad40;
+   
+}
+
+.phone  {
+     margin: 5px;
+         color: #f9ad40;
+
+}
+
+.school{
+  height: 377px;
+    width: 174%;
+    position: relative;
+    right: 374px;
+
+}
+
+.text{
+    text-align: center;
+    color: white;
+}
+.soz{
+      position: absolute;
+    bottom: 96px;
+    left: 754px;
+}
+}
+.soz p{
+ position: absolute;
+    top: 251px;
+}
+
+.soz h1{
+    margin-bottom:208px; 
+}
+
+.soz a{
+    color: #f9ad40;
+
+}
+.soz a:hover{
+    color: blue;
+    
+}
+.part2{
+ margin-top: 50px;
+}
+

@@ -1,0 +1,77 @@
+.a{
+	color: white;
+}
+.container{
+    width: 1365px;
+    height: 372px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 70px;
+    padding-left: 70px;
+}
+
+.meskan {
+            color: #f9ad40;
+    margin: 5px;
+}
+
+.email {
+	margin: 5px;
+	    color: #f9ad40;
+   
+}
+
+.phone  {
+     margin: 5px;
+         color: #f9ad40;
+
+}
+
+.school{
+  height: 377px;
+    width: 138%;
+    position: relative;
+    right: 100px;
+
+}
+
+.text{
+    text-align: center;
+    color: white;
+}
+.soz{
+  position: relative;
+  bottom: 250px;
+}
+.soz p{
+    padding: 160px;
+    color: white;
+}
+.soz a{
+    color: #f9ad40;
+
+}
+.soz a:hover{
+    color: blue;
+    
+}
+.input{
+    padding: 100px;
+}
+#usr{
+    width: 430px;
+    margin-left: 350px;
+}
+.search{
+    float: right;
+        position: relative;
+    right: 34%;
+    bottom: 33px;
+    color: white;
+    background-color: #f9ad40;
+
+}
+.search:hover{
+background-color: blue;
+color: white
+}
