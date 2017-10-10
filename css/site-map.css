@@ -1,0 +1,81 @@
+.a{
+	color: white;
+}
+.container{
+    width: 1365px;
+    height: 372px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 70px;
+    padding-left: 70px;
+}
+
+.meskan {
+            color: #f9ad40;
+    margin: 5px;
+}
+
+.email {
+	margin: 5px;
+	    color: #f9ad40;
+   
+}
+
+.phone  {
+     margin: 5px;
+         color: #f9ad40;
+
+}
+.text h1{
+	text-align: center;
+	margin-top: -250px;
+	color: white;
+
+}
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.soz p {
+	text-align: center;
+	margin-top: 190px;
+	color:white;
+    padding: 3px;
+
+}
+
+.text a{
+	 color: #f9ad40;
+}
+.school{
+  height: 377px;
+    width: 138%;
+    position: relative;
+    right: 86px;
+    z-index: -1;
+
+}
+
+.home{
+    padding: 50px 0px;
+}
+
+.about{
+    padding: 50px 0;
+}
+
+
+.html h1{
+    color: blue;
+    padding: 50px 0;
+
+}
+.html h1:hover{
+  color: #f9ad40;
+}
+
+ul{
+    list-style-type: none;
+}

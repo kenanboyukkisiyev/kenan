@@ -9,7 +9,11 @@
     padding-left: 70px;
     padding-left: 70px;
 }
-
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
 .meskan {
  color: #f9ad40;
 margin: 5px;

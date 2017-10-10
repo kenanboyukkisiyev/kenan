@@ -32,12 +32,18 @@
 	color: white;
 
 }
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
 
-.text p{
+.soz p {
 	text-align: center;
-	margin-top: 180px;
+	margin-top: 290px;
 	color:white;
     padding: 3px;
+
 }
 
 .text a{
@@ -48,6 +54,7 @@
     width: 138%;
     position: relative;
     right: 86px;
+    z-index: -1;
 
 }
 .Get{
@@ -83,8 +90,8 @@
 .sosial i{
     height: 25px
     width:25px;
-    font-size: 20px;
-    border-radius: 50%;
+    font-size:20px;
+    border-radius:50%;
     
 }
 .facebook{

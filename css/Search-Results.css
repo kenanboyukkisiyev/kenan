@@ -20,6 +20,11 @@
 	    color: #f9ad40;
    
 }
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
 
 .phone  {
      margin: 5px;

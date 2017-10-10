@@ -19,12 +19,19 @@
          color: #f9ad40;
 
 }
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+
+}
 
 .school{
   height: 377px;
     width: 174%;
     position: relative;
     right: 374px;
+    z-index: -1;
 
 }
 
@@ -32,21 +39,22 @@
     text-align: center;
     color: white;
 }
-.soz{
-      position: absolute;
-    bottom: 96px;
-    left: 754px;
-}
-}
+
+
 .soz p{
  position: absolute;
-    top: 251px;
+    bottom:  0px;
+    top: 230px;
+    left: 15px;
+
 }
 
-.soz h1{
-    margin-bottom:208px; 
-}
+.soz {
+    position: absolute;
+    top: 200px;
+    left: 40%;
 
+}
 .soz a{
     color: #f9ad40;
 

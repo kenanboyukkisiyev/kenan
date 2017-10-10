@@ -1,0 +1,72 @@
+.a{
+	color: white;
+}
+
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+.meskan {
+ color: #f9ad40;
+margin: 5px;
+}
+
+.email {
+margin: 5px;
+ color: #f9ad40;
+   
+}
+
+.phone  {
+ margin: 5px;
+ color: #f9ad40;
+
+}
+.text h1{
+	text-align: center;
+	margin-top: -250px;
+	color: white;
+
+}
+
+.text p{
+	text-align: center;
+	margin-top: 180px;
+	color:white;
+    padding: 3px;
+}
+
+.text a{
+	 color: #f9ad40;
+}
+.school{
+   height: 347px;
+   width: 133%;
+    margin-left: -84px;
+
+}
+
+
+.gird{
+    padding: 50px 0;
+
+    text-align: center;
+}
+
+.full{
+    padding: 100px ;
+    text-align: center;
+}
+.h1{
+    padding: 50px;
+}
+
+
+.system{
+    padding: 50px 0;
+}
+
+.one{
+    float: left;
+}
