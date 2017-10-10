@@ -2,7 +2,7 @@
 	color: white;
 }
 .container{
-    width: 1565px;
+    width: 1365px;
     height: 372px;
     margin-left: 0;
     margin-right: 0;
@@ -15,21 +15,22 @@
     margin: 5px;
 }
 
-.fa-envelope:before {
+.email {
 	margin: 5px;
 	    color: #f9ad40;
-    content: "\f0e0";
+   
 }
 
-.fa-phone-square:before {
+.phone  {
      margin: 5px;
          color: #f9ad40;
-    content: "\f098";
+
 }
 .text h1{
 	text-align: center;
 	margin-top: -250px;
 	color: white;
+
 }
 
 .text p{
@@ -45,5 +46,125 @@
 .school{
    height: 347px;
     margin-left: -94px;
+
+}
+.Get{
+    padding: 50px 0;
+}
+
+.input{
+    float: left;
+}
+.mektub{
+    height: 90px;
+     width: 560px;
+}
+.poct{
+    width: 0px;
+}
+
+.btnsend{
+    color: white;
+    background-color:#f9ad40 ;
+    height: 50px;
+    width: 100px;
+
+}
+.btnsend:hover{
+    color: white;
+    background-color: blue;
+}
+.sosial{
+    float: right;
+}
+
+.facebook{
+    font-size: 35px;
+    background-color: silver;
+    border-radius:60%;
+    color: white;
+}
+.facebook:hover{
+    font-size: 35px;
+    background-color: blue;
+    border-radius:60%;
+    color: white;
+}
+
+.twitter{
+    font-size: 35px;
+    background-color: silver;
+    border-radius:60%;
+    color: white;
+}
+.twitter:hover{
+    font-size: 35px;
+    background-color: lightblue;
+    border-radius:60%;
+    color:white;
+}
+
+
+.google{
+    font-size: 35px;
+    background-color: silver;
+    border-radius:60%;
+    color: white;
+}
+.google:hover{
+    font-size: 35px;
+    background-color: red;
+    border-radius:60%;
+    color:white;
+}
+
+.instagram{
+    font-size: 35px;
+    background-color: silver;
+    border-radius:60%;
+    color: white;
+}
+.instagram:hover{
+    font-size: 35px;
+    background-color: #ae3d9d;
+    border-radius:60%;
+    color:white;
+}
+
+.wifi{
+    font-size: 35px;
+    background-color: silver;
+    border-radius:60%;
+    color: white;
+}
+.wifi:hover{
+    font-size: 35px;
+    background-color: brown;
+    border-radius:60%;
+    color:white;
+}
+
+.telefon{
+    color: blue;
+    font-size: 30px;
+}
+
+.sosial a{
+    color:silver;
+
+}
+
+.sosial a:hover{
+    color:#f9ad40;
+    
+}
+.yer{
+    color: blue;
+    font-size: 30px;
+}
+
+.yer{
+    color: blue;
+    font-size: 30px;
 
 }

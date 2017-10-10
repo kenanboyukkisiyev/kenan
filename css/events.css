@@ -1,0 +1,105 @@
+.a{
+	color: white;
+}
+.container{
+    width: 1365px;
+    height: 372px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 70px;
+    padding-left: 70px;
+}
+
+.meskan {
+ color: #f9ad40;
+margin: 5px;
+}
+
+.email {
+margin: 5px;
+ color: #f9ad40;
+   
+}
+
+.phone  {
+ margin: 5px;
+ color: #f9ad40;
+
+}
+.text h1{
+	text-align: center;
+	margin-top: -250px;
+	color: white;
+
+}
+
+.text p{
+	text-align: center;
+	margin-top: 180px;
+	color:white;
+    padding: 3px;
+}
+
+.text a{
+	 color: #f9ad40;
+}
+.school{
+   height: 347px;
+    margin-left: -94px;
+
+}
+
+.events{
+    padding: 180px 0;
+}
+.part1 h4{
+color: blue;
+}
+
+.part1 h4:hover{
+color: #f9ad40;
+}
+
+.part1 a{
+    color: #f9ad40;
+}
+
+.part1 a:hover{
+    color: blue;
+}
+
+.satan{
+    width: 280px;
+    height: 190px;
+}
+.basliq{
+    background-color: blue;
+    width: 80px;
+   position: relative;
+   top:50px;
+   color:white;
+}
+.num{
+    font-size: 30px;
+    color: white;
+}
+
+.last{
+    padding: 50px 0;
+    background-color: silver;
+}
+
+.september{
+    color: #f9ad40;
+}
+.part2 h4{
+    margin-top: -90px;
+}
+.part2 a{
+    color: white;
+}
+
+.part2 a:hover{
+    color: #f9ad40;
+   
+}
