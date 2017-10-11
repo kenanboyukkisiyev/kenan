@@ -27,12 +27,11 @@
 }
 
 .school{
-  height: 377px;
-    width: 174%;
     position: relative;
-    right: 374px;
+    height: 347px;
+    width: 143%;
+    right: 260px;
     z-index: -1;
-
 }
 
 .text{

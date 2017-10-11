@@ -1,0 +1,143 @@
+.a{
+	color: white;
+}
+
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+.meskan {
+ color: #f9ad40;
+margin: 5px;
+}
+
+.email {
+margin: 5px;
+ color: #f9ad40;
+   
+}
+
+.phone  {
+ margin: 5px;
+ color: #f9ad40;
+
+}
+.text h1{
+	text-align: center;
+	margin-top: -250px;
+	color: white;
+
+}
+
+.text p{
+	text-align: center;
+	margin-top: 180px;
+	color:white;
+    padding: 3px;
+}
+
+.text a{
+	 color: #f9ad40;
+}
+.school{
+    position: relative;
+    height: 347px;
+    width: 143%;
+    right: 260px;
+    z-index: -1;
+    background-image: url('https://livedemo00.template-help.com/wt_62311/images/backgrounds/bg-breadcrumbs.jpg');
+}
+
+.team{
+
+}
+
+.img{
+	
+	padding: 20px ;
+
+
+}
+.img:hover .icons{
+ visibility: visible;
+}
+
+.images{
+	
+	position: relative;
+	bottom: 414px;
+	max-width: 100%;
+	object-fit: cover;
+
+}
+.con{
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 415px;
+	height: 83%;
+	background: rgba(0,0,0,0.2);
+	    transition: 200ms ease-in-out;
+	    display: block;
+	list-style-type: none;
+	    padding: 8px;
+    margin-top: 0;
+
+}
+.icons  {
+	visibility: hidden;
+    height: 438px;
+    font-size: 20px;
+    position: relative;
+    top: 24px;
+    z-index: 5;
+    color: white;
+    width: 50px;
+
+}
+.reng{
+	position: relative;
+	bottom: 417px;
+}
+.reng a{
+	color: blue;
+}
+
+.reng a:hover{
+	color:  #f9ad40;
+}
+
+  
+.Columns{
+	padding: 50px;
+	background-color: #cfcece;
+	height: 400px;
+}
+.Mark{
+	    float: right;
+    position: relative;
+    bottom: 175px;
+    right:110px;
+    margin:-14px;
+}
+
+li{
+	display: inline-block;
+
+}
+.Mark a{
+	color: blue;
+}
+
+.Mark a:hover{
+	color:#f9ad40;
+}
+.btn{
+   background-color:  blue;
+
+}
+.btn:hover{
+   background-color: #f9ad40;
+   
+}

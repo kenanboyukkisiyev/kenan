@@ -48,11 +48,12 @@ margin: 5px;
 	 color: #f9ad40;
 }
 .school{
-   height: 347px;
-    margin-left: -94px;
-
+    position: relative;
+    height: 347px;
+    width: 143%;
+    right: 260px;
+    z-index: -1;
 }
-
 .events{
     padding: 180px 0;
 }

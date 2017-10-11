@@ -41,10 +41,11 @@ margin: 5px;
 	 color: #f9ad40;
 }
 .school{
-   height: 347px;
-   width: 133%;
-    margin-left: -84px;
-
+    position: relative;
+    height: 347px;
+    width: 143%;
+    right: 260px;
+    z-index: -1;
 }
 
 
@@ -59,7 +60,7 @@ margin: 5px;
     text-align: center;
 }
 .h1{
-    padding: 50px;
+    text-align: center;
 }
 
 
@@ -69,4 +70,8 @@ margin: 5px;
 
 .one{
     float: left;
+}
+
+p{
+    color: #777;
 }
