@@ -141,3 +141,65 @@ li{
    background-color: #f9ad40;
    
 }
+
+.pecters{
+	padding: 100px;
+	float: left;
+}
+
+.ima-responsive{
+	width: 114%;
+	height: 244px;
+	
+}
+.soz{
+	background-color: blue;
+	position: relative;
+	bottom: 73px;
+}
+.soz h4{
+	color: white;
+}
+.soz h4:hover{
+	color:  #f9ad40;
+}
+.soz p{
+	color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	bottom: 0px;
+	top: 2px;
+	left: 110px;
+}
+
+
+
+.soz:hover{
+	background-color: #2a2b2d;
+}
+
+.ses{
+	height: 40px;
+	background-color: blue;
+	position: relative;
+	bottom: 90px;
+}
+
+
+.ses h4{
+	color: white;
+}
+.ses h4:hover{
+	color:  #f9ad40;
+}
+.ses p{
+	color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	bottom: 0px;
+	top: 2px;
+	left: 130px;
+}
+
+
+
+.ses:hover{
+	background-color: #2a2b2d;
