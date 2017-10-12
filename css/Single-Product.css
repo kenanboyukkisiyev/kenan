@@ -119,3 +119,7 @@ ul{
 	background-color:#f9ad40 ;
 	border-radius: 30px;
 }
+
+a:hover{
+	text-decoration: none;
+}
