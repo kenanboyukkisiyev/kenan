@@ -1,0 +1,121 @@
+.a{
+	color: white;
+}
+
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+.meskan {
+ color: #f9ad40;
+margin: 5px;
+}
+
+.email {
+margin: 5px;
+ color: #f9ad40;
+   
+}
+
+.phone  {
+ margin: 5px;
+ color: #f9ad40;
+
+}
+.soz h1{
+	    text-align: center;
+    margin-top: 80px;
+    color: white;
+    margin-right: 14%;
+
+}
+
+.soz p{
+	    text-align: center;
+    color: white;
+    padding: 3px;
+       margin-top: 18%;
+    margin-right: 15%;
+}
+
+.soz a{
+	 color: #f9ad40;
+}
+.soz a:hover{
+	 color: blue;
+}
+.mekteb{
+	background-image: url('https://livedemo00.template-help.com/wt_62311/images/backgrounds/bg-breadcrumbs.jpg');
+	height: 347px;
+}
+.Power{
+	margin-top: 50px;
+}
+
+.qiymet h3{
+text-decoration: line-through;
+color: grey;
+}
+
+.product li{
+	display: inline-block;
+}
+
+
+.qiymet{
+ display: inline-block;
+ 
+}
+.book{
+
+}
+
+.habbit{
+	height: 500px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.qus{
+	color: #f9ad40;
+	padding-top: 50px;
+}
+
+.kitab{
+    
+     width: 160px;
+}
+
+.sayt a{
+	color: blue;
+}
+.sayt a:hover{
+	color: #f9ad40;
+}
+
+.btn  button {
+	color: #f9ad40;
+	background-color: white;
+	border: 2px solid #f9ad40;
+	border-radius:25%; 
+
+}
+.btn:hover{
+	background-color: #f9ad40;
+	color: white;
+	border-radius:25%;
+}
+
+.add button{
+	color: white;
+	background-color: blue;
+	border-radius: 30px;
+}
+.add button:hover{
+	color: white;
+	background-color:#f9ad40 ;
+	border-radius: 30px;
+}
