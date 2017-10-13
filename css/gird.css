@@ -1,7 +1,9 @@
 .a{
 	color: white;
 }
-
+a:hover{
+    text-decoration: none;
+}
 .Grifin{
     position: fixed;
     background-color: white;

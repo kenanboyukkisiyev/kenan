@@ -1,6 +1,9 @@
 .a{
 	color: white;
 }
+a:hover{
+    text-decoration:none; 
+}
 
 .shell{
     width: 1565px;

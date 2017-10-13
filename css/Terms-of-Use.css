@@ -1,7 +1,9 @@
 .a{
     color: white;
 }
-
+a:hover{
+    text-decoration: none;
+}
 
 .meskan {
             color: #f9ad40;

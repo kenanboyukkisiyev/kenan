@@ -1,0 +1,63 @@
+.a{
+	color: white;
+}
+
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+.meskan {
+ color: #f9ad40;
+margin: 5px;
+}
+
+.email {
+margin: 5px;
+ color: #f9ad40;
+   
+}
+
+.phone  {
+ margin: 5px;
+ color: #f9ad40;
+
+}
+.soz h1{
+	text-align: center;
+	margin-top: 85px;
+	color: white;
+
+}
+
+.soz p{
+	text-align: center;
+	margin-top: 200px;
+	color:white;
+    padding: 3px;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.soz a{
+	 color: #f9ad40;
+}
+.mekteb{
+	background-image: url('https://livedemo00.template-help.com/wt_62311/images/backgrounds/bg-breadcrumbs.jpg');
+	height: 347px;
+	
+}
+
+
+.sistem{
+	text-align: center;
+	padding: 50px;
+}
+.tables{
+	padding: 50px;
+}
+.Hover th{
+color: white;
+background-color: #f9ad40;
+}
