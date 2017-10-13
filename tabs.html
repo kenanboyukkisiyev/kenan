@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MG Tables</title>
+	<title>MG Tabs</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css"
@@ -91,6 +91,7 @@
     		          <li><a href="#">Buttons</a></li>
     		          <li><a href="gird.html">Grid</a></li>
     		          <li><a href="tables.html">tables</a></li>
+                  <li><a href="tabs.html">Tabs</a></li>
   	          </ul>
   	               
           </ul>
@@ -150,20 +151,124 @@ Site navigation is extremely intuitive and user-friendly. You will always know w
 We use only trusted, verified content, so you can believe every word we are saying. We are always happy to greet the new visitors on our site. Our blog and social media accounts are available to encourage communication and connection between clients and personnel and tell you more about us in the informal environments where we can have a dialogue instead of just a narrative like that. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page. It will tell you lots of interesting things about our company, its products and services, highly professional staff and happy customers</div>
 </div>
 
-          </div>
-          <div class="tabs">
-            <h4>Vertical Tabs</h4>
-            <ul class="nav nav-pills nav-stacked" role='tablist'>
-              <li><a href="#">tab1</a></li>
-              <li><a href="#">tab2</a></li>
-              <li><a href="#">tab3</a></li>
-              <li><a href="#">tab4</a></li>
+      <div class="row" style="min-height:300px;">
+    <div  class="col-sm-6">
+        <h3>vertical Tabs</h3>
+        <hr/>
+        <div class="col-xs-3">
+            <!-- required for floating -->
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs tabs-left">
+                <li class="active"><a href="#home" data-toggle="tab">tab1</a></li>
+                <li><a href="#profile" data-toggle="tab">tab2</a></li>
+                <li><a href="#messages" data-toggle="tab">tab3</a></li>
+                <li><a href="#settings" data-toggle="tab">tab4</a></li>
             </ul>
-          </div>
-          
-          </div>
-        </section>
+        </div>
+        <div class="col-xs-9">
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="home">Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page. It will tell you lots of interesting things about our company, its products and services, highly professional staff and happy customers. Our site design and navigation has been thoroughly thought out. The layout is aesthetically appealing, contains concise texts in order not to take your precious time. Text styling allows scanning the pages quickly.
+Site navigation is extremely intuitive and user-friendly. You will always know where you are now and will be able to skip from one page to another with a single mouse click. We use only trusted, verified content, so you can believe every word we are saying. We are always happy to greet the new visitors on our site.</div>
+                <div class="tab-pane" id="profile">The layout is aesthetically appealing, contains concise texts in order not to take your precious time. Text styling allows scanning the pages quickly. Site navigation is extremely intuitive and user-friendly. You will always know where you are now and will be able to skip from one page to another with a single mouse click.
+We use only trusted, verified content, so you can believe every word we are saying. We are always happy to greet the new visitors on our site. Our blog and social media accounts are available to encourage communication and connection between clients and personnel and tell you more about us in the informal environments where we can have a dialogue instead of just a narrative like that. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page. It will tell you lots of interesting things about our company, its products and services, highly professional staff and happy customers.</div>
+                <div class="tab-pane" id="messages">We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page. It will tell you lots of interesting things about our company, its products and services, highly professional staff and happy customers.
+Our site design and navigation has been thoroughly thought out. The layout is aesthetically appealing, contains concise texts in order not to take your precious time. Text styling allows scanning the pages quickly. Site navigation is extremely intuitive and user-friendly. You will always know where you are now and will be able to skip from one page to another with a single mouse click. We use only trusted, verified content, so you can believe every word we are saying. We are always happy to greet the new visitors on our site. Our blog and social media accounts are available to encourage communication and connection between clients and personnel and tell you more about us.</div>
+                <div class="tab-pane" id="settings">Our site design and navigation has been thoroughly thought out. The layout is aesthetically appealing, contains concise texts in order not to take your precious time. Text styling allows scanning the pages quickly. Site navigation is extremely intuitive and user-friendly.
+You will always know where you are now and will be able to skip from one page to another with a single mouse click. We use only trusted, verified content, so you can believe every word we are saying. We are always happy to greet the new visitors on our site. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page. It will tell you lots of interesting things about our company, its products and services, highly professional staff and happy customers. You will always know where you are now and will be able to skip from one page to another with a single mouse click. We use only trusted, verified content, so you can believe every word we are saying. We are always happy to greet the new visitors on our site.</div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    </section>
 
+
+
+
+
+    <div class="container">
+       <div class="son"><h3>Accordion</h3></div>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="panel-title expand">
+           <div class="right-arrow pull-right">+</div>
+          <a href="#">Can I track my order?</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">
+Yes, you can! After placing your order you will receive an order confirmation via email. Each order starts production 15 minutes after your order is placed. Within a few hours of you placing your order, you will receive an expected delivery time. When the order will be ready for delivery, you will receive another email with the tracking number and a link to trace the order online with the courier.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">How can I change something in my order?</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+If you need to change something in your order, please contact us immediately. We usually process orders within 30 minutes, and once we have processed your order, we will be unable to make any changes.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">How can I pay for my order?</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+We accept Visa, MasterCard, and American Express credit and debit cards for your convenience.</div>
+      </div>
+    </div>
+     <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">How long will my order take to be delivered?</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">
+Delivery times will depend on your location. Once payment is confirmed your order will be packaged. Delivery can be expected within a day.</div>
+      </div>
+    </div>
+<div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">Can I return an item?</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">
+
+Please contact our administrators for more information on returning products purchased on our website.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="panel-title expand">
+            <div class="right-arrow pull-right">+</div>
+          <a href="#">What is a unique/non-unique purchase?</a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body">
+
+Non-exclusive purchase means that other people can buy the template you have chosen some time later. Exclusive or unique purchase guarantees that you are the last person to buy this template. After an exclusive purchase occurs the template is being permanently removed from the sales directory and will never be available to other customers again. Only you and people who bought the template before you will own it.</div>
+      </div>
+    </div>
+
+  </div> 
+</div>
+
+
+        
 
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -1,0 +1,145 @@
+.a{
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.Grifin{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+.meskan {
+ color: #f9ad40;
+margin: 5px;
+}
+
+.email {
+margin: 5px;
+ color: #f9ad40;
+   
+}
+
+.phone  {
+ margin: 5px;
+ color: #f9ad40;
+
+}
+.soz h1{
+	text-align: center;
+	margin-top: 85px;
+	color: white;
+
+}
+
+.soz p{
+	text-align: center;
+	margin-top: 200px;
+	color:white;
+    padding: 3px;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.soz a{
+	 color: #f9ad40;
+}
+.mekteb{
+	background-image: url('https://livedemo00.template-help.com/wt_62311/images/backgrounds/bg-breadcrumbs.jpg');
+	height: 347px;
+	
+}
+
+.member{
+	padding: 50px 0;
+}
+
+.icons i{
+	width: 30px;
+	height:30px;
+	font-size: 20px;
+	border-radius:50%;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding-top: 3px;
+
+}
+.icons {
+	
+	padding-top: 5px;
+
+}
+
+
+.tiwit{
+  color: white;
+  
+  
+
+}
+.tiwit:hover{
+	color: white;
+	background-color: #15aecf;
+
+}
+
+.face{
+  color: white;
+  
+  
+
+}
+.face:hover{
+	color: white;
+	background-color: blue;
+
+}
+
+
+.gogle{
+  color: white;
+  
+  
+
+}
+.gogle:hover{
+	color: white;
+	background-color: red;
+
+}
+
+
+.whatsapp{
+  color: white;
+  
+  
+
+}
+.whatsapp:hover{
+	color: white;
+	background-color:green;
+
+}
+
+.instagram{
+  color: white;
+  
+  
+
+}
+.instagram:hover{
+	color: white;
+	background-color:purple;
+
+}
+
+
+
+.Upcoming{
+	padding: 50px;
+	background-color: silver;
+}
+
