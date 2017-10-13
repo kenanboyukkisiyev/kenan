@@ -142,4 +142,27 @@ a:hover{
 	padding: 50px;
 	background-color: silver;
 }
+  
 
+  .qiz{
+  	max-width: 400px;
+  }
+
+  .september{
+  	    background-color: blue;
+    position: absolute;
+  }
+
+span{
+	font-size: 20px;
+}
+
+.btn{
+	background-color: #f9ad40;
+
+}
+
+
+.btn:hover{
+	background-color: blue;
+}
