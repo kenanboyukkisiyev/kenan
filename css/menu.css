@@ -1,55 +1,109 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Open Sans', 'sans-serif';
-}
-.mega-dropdown {
-  position: static !important;
-}
-.mega-dropdown-menu {
-    padding: 20px 0px;
-    width: 100%;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
-.mega-dropdown-menu > li > ul {
-  padding: 0;
+  background: #ddd;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
-.mega-dropdown-menu > li > ul > li {
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.10)
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+  position: relative;
+  text-align: right;
 }
-.mega-dropdown-menu > li > ul > li > a {
-  display: block;
-  color: #222;
-  padding: 3px 5px;
+
+nav li {
+  display: inline-block;
 }
-.mega-dropdown-menu > li ul > li > a:hover,
-.mega-dropdown-menu > li ul > li > a:focus {
+
+nav a {
+  color: #444;
   text-decoration: none;
-}
-.mega-dropdown-menu .dropdown-header {
-  font-size: 18px;
-  color: #ff3546;
-  padding: 5px 60px 5px 5px;
-  line-height: 30px;
+  display: block;
+  padding: .75em 1.75em;
 }
 
-.carousel-control {
-  width: 30px;
-  height: 30px;
-  top: -35px;
+nav li:hover {
+  background: #444;
+}
 
+nav li:hover a {
+  color: #fff;
 }
-.left.carousel-control {
-  right: 30px;
-  left: inherit;
+
+
+.menu-sub {
+  position: absolute;
+  left: 0;
+  background: #444;
+  width: 100%;
+  display: none;
+  color: #fff;
+  padding: 2em;
 }
-.carousel-control .glyphicon-chevron-left, 
-.carousel-control .glyphicon-chevron-right {
-  font-size: 12px;
-  background-color: #fff;
-  line-height: 30px;
-  text-shadow: none;
-  color: #333;
-  border: 1px solid #ddd;
+
+nav li:hover .menu-sub {
+  display: block;
+}
+
+.menu-sub li {
+  display: block;
+}
+
+.menu-sub a {
+  padding: 0;
+  margin-bottom: .35em;
+}
+
+.menu-sub a:hover {
+  text-decoration: underline;
+}
+
+.menu-category {
+  margin: 2.5em 0 .5em;
+}
+
+.menu-category:first-of-type {
+  margin-top: 0;
+}
+
+.menu-col-1,
+.menu-col-2,
+.menu-col-3,
+.menu-col-4 {
+  float:left
+}
+
+.menu-col-1 {
+  width: 25%;
+}
+
+.menu-col-2 {
+  width: 10%;
+}
+.menu-col-3 {
+  width: 20%;
+}
+.sekil{
+ position:absolute;
+  right: 113%;
 }
