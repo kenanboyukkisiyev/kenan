@@ -1,39 +1,135 @@
-.a{
-	color: white;
-}
-a:hover{
-    text-decoration:none; 
+.navbar-header{
+    position: absolute;
+    left: 1%;
+    display: inline-flex;
 }
 
-.shell{
-    width: 1565px;
-    height: 372px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 70px;
-    padding-left: 70px;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.menu-main{
+    position: fixed;
+    right: 1px;
+    z-index: 4;
+    background: #fff;
+    width: 100%;
+}
+
+
+
+
+nav {
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.10)
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  color: black;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: .75em 1.75em;
+}
+
+nav li:hover {
+  background: none;
+  color: #000;
+}
+
+nav a:hover li {
+  color: #000;
+}
+
+
+.menu-sub {
+  position: absolute;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  display: none;
+  color: #fff;
+  padding: 2em;
+}
+
+nav li:hover .menu-sub {
+  display: block;
+}
+
+.menu-sub li {
+  display: block;
+  color: black;
+}
+
+.menu-sub a {
+  padding: 0;
+  margin-bottom: .35em;
+}
+
+
+
+
+.menu-col-1,
+.menu-col-2,
+.menu-col-3,
+.menu-col-4 {
+  float:left
+}
+
+.menu-col-1 {
+  width: 25%;
+}
+
+.menu-col-2 {
+  width: 10%;
+}
+.menu-col-3 {
+  width: 20%;
+}
+
+.sekil{
+ position: fixed;
+ left: 1%;
+ z-index: 4;
+
+}
+
+.a{
+  color: white;
+}
+a:hover{
+  text-decoration: none;
 }
 
 .meskan {
-            color: #f9ad40;
-    margin: 5px;
+ color: #f9ad40;
+margin: 5px;
 }
 
-.fa-envelope:before {
-	margin: 5px;
-	    color: #f9ad40;
-    content: "\f0e0";
+.email {
+margin: 5px;
+ color: #f9ad40;
+   
 }
 
-.fa-phone-square:before {
-     margin: 5px;
-         color: #f9ad40;
-    content: "\f098";
+.phone  {
+ margin: 5px;
+ color: #f9ad40;
+
 }
 
-.nav-home{
-	margin-left: 200px;
-}
+
 
 .event{
     padding: 100px;
@@ -57,10 +153,6 @@ margin-left: -115px;
 .book{
    
 }
-a {
-   
- 
-}
 
 
 button{
@@ -75,11 +167,7 @@ button{
 
 }
 
-.Grifin{
-    position: fixed;
-    background-color: white;
-    z-index: 1;
-}
+
 
 .btn-events{
     background-color: blue;

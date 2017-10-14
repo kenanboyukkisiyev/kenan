@@ -1,63 +1,154 @@
+.navbar-header{
+    position: absolute;
+    left: 1%;
+    display: inline-flex;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.menu-main{
+    position: fixed;
+    right: 1px;
+    z-index: 4;
+    background: #fff;
+    width: 100%;
+}
+
+
+
+
+nav {
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.10)
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  color: black;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: .75em 1.75em;
+}
+
+nav li:hover {
+  background: none;
+  color: #000;
+}
+
+nav a:hover li {
+  color: #000;
+}
+
+
+.menu-sub {
+  position: absolute;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  display: none;
+  color: #fff;
+  padding: 2em;
+}
+
+nav li:hover .menu-sub {
+  display: block;
+}
+
+.menu-sub li {
+  display: block;
+  color: black;
+}
+
+.menu-sub a {
+  padding: 0;
+  margin-bottom: .35em;
+}
+
+
+
+
+.menu-col-1,
+.menu-col-2,
+.menu-col-3,
+.menu-col-4 {
+  float:left
+}
+
+.menu-col-1 {
+  width: 25%;
+}
+
+.menu-col-2 {
+  width: 10%;
+}
+.menu-col-3 {
+  width: 20%;
+}
+
+.sekil{
+ position: fixed;
+ left: 1%;
+ z-index: 4;
+
+}
+
 .a{
-	color: white;
+  color: white;
 }
 a:hover{
-    text-decoration: none;
-}
-.container{
-    width: 1365px;
-    height: 372px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 70px;
-    padding-left: 70px;
+  text-decoration: none;
 }
 
 .meskan {
-            color: #f9ad40;
-    margin: 5px;
+ color: #f9ad40;
+margin: 5px;
 }
 
 .email {
-	margin: 5px;
-	    color: #f9ad40;
+margin: 5px;
+ color: #f9ad40;
    
 }
 
 .phone  {
-     margin: 5px;
-         color: #f9ad40;
+ margin: 5px;
+ color: #f9ad40;
 
 }
-.text h1{
-	text-align: center;
-	margin-top: -250px;
-	color: white;
+.soz h1{
+  text-align: center;
+  margin-top: 100px;
+  color: white;
 
 }
-.Grifin{
-    position: fixed;
-    background-color: white;
-    z-index: 1;
-}
-
-.soz p {
-	text-align: center;
-	margin-top: 290px;
-	color:white;
-    padding: 3px;
+.mekteb{
+    background-image: url('https://livedemo00.template-help.com/wt_62311/images/backgrounds/bg-breadcrumbs.jpg');
+    height: 400px;
 
 }
 
-.text a{
-	 color: #f9ad40;
+.soz p{
+  text-align: center;
+  margin-top: 220px;
+  color:white;
+    padding: 10px;
 }
-.school{
-    position: relative;
-    height: 347px;
-    width: 143%;
-    right: 260px;
-    z-index: -1;
+
+.soz a{
+   color: #f9ad40;
 }
 .Get{
     padding: 50px 0;
@@ -85,11 +176,11 @@ a:hover{
     color: white;
     background-color: blue;
 }
-.sosial{
+.icons{
     float: right;
 
 }
-.sosial i{
+.icons i{
     height: 25px
     width:25px;
     font-size:20px;
@@ -156,7 +247,7 @@ a:hover{
 
 }
 
-.sosial a:hover{
+.icons a:hover{
     color:#f9ad40;
     
 }
@@ -165,8 +256,98 @@ a:hover{
     font-size: 30px;
 }
 
-.yer{
-    color: blue;
-    font-size: 30px;
+footer{
+  padding: 50px;
+  background: #000;
+}
+
+
+.icons i{
+  width: 30px;
+  height:30px;
+  font-size: 20px;
+  border-radius:50%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.con li{
+   display: inline-block;
+}
+.icons {
+  
+  padding-top: 5px;
 
 }
+
+
+.tiwit{
+  color: white;
+  
+  
+
+}
+.tiwit:hover{
+  color: white;
+  background-color: #15aecf;
+
+}
+
+.face{
+  color: white;
+  
+  
+
+}
+.face:hover{
+  color: white;
+  background-color: blue;
+
+}
+
+
+.gogle{
+  color: white;
+  
+  
+
+}
+.gogle:hover{
+  color: white;
+  background-color: red;
+
+}
+
+
+.wifi{
+  color: white;
+  
+  
+
+}
+.wifi:hover{
+  color: white;
+  background-color:brown;
+
+}
+
+.instagram{
+  color: white;
+  
+  
+
+}
+.instagram:hover{
+  color: white;
+  background-color:purple;
+
+}
+
+.boton button{
+  color: #f9ad40;
+  border: 1px solid #f9ad40;
+  background: #000;
+}
+
