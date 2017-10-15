@@ -151,58 +151,57 @@ margin: 5px;
    color: #f9ad40;
 }
 
-.sistem{
-	text-align: center;
-	padding: 50px;
+.qus{
+  color: #f9ad40;
+  padding-top: 50px;
 }
-.tables{
-	padding: 50px;
+
+.kitab{
+    
+     width: 160px;
 }
-.Hover th{
-color: white;
-background-color: #f9ad40;
+
+.sayt a{
+  color: blue;
+}
+.sayt a:hover{
+  color: #f9ad40;
+}
+
+.btn  button {
+  color: #f9ad40;
+  background-color: white;
+  border: 2px solid #f9ad40;
+  border-radius:25%; 
+
+}
+.btn:hover{
+  background-color: #f9ad40;
+  color: white;
+  border-radius:25%;
+}
+
+.add button{
+  color: #f9ad40;
+  background-color: white;
+  border-radius: 30px;
+  border: 2px solid  #f9ad40;
+}
+.add button:hover{
+  color: white;
+  background-color:#f9ad40 ;
+  border-radius: 30px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.is{
+  text-align: center;
 }
 
 
 
-.tabs-left, .tabs-right {
-  border-bottom: none;
-  padding-top: 2px;
-}
-.tabs-left {
-  border-right: 1px solid #ddd;
-}
-.tabs-right {
-  border-left: 1px solid #ddd;
-}
-.tabs-left>li, .tabs-right>li {
-  float: none;
-  margin-bottom: 2px;
-}
-.tabs-left>li {
-  margin-right: -1px;
-}
-.tabs-right>li {
-  margin-left: -1px;
-}
-.tabs-left>li.active>a,
-.tabs-left>li.active>a:hover,
-.tabs-left>li.active>a:focus {
-  border-bottom-color: #ddd;
-  border-right-color: transparent;
-}
-
-.tabs-right>li.active>a,
-.tabs-right>li.active>a:hover,
-.tabs-right>li.active>a:focus {
-  border-bottom: 1px solid #ddd;
-  border-left-color: transparent;
-}
-.tabs-left>li>a {
-  border-radius: 4px 0 0 4px;
-  margin-right: 0;
-  display:block;
-}
 
 
 footer{
@@ -224,6 +223,7 @@ footer{
 
 .con li{
    display: inline-block;
+
 }
 .icons {
   
@@ -299,7 +299,6 @@ footer{
   border: 1px solid #f9ad40;
   background: #000;
 }
-
 
 .boton a:hover{
   color: #fff;

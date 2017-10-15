@@ -219,8 +219,7 @@ margin: 5px;
 	    float: right;
     position: relative;
     bottom: 175px;
-    right:110px;
-    margin:-14px;
+   
 }
 
 li{
@@ -401,3 +400,14 @@ footer{
   background: #000;
 }
 
+.boton a:hover{
+  color: #fff;
+ 
+  background: #000;
+}
+
+.boton a{
+  color: #f9ad40;
+
+  background: #000;
+}

@@ -176,17 +176,19 @@ margin: 5px;
     color: white;
     background-color: blue;
 }
-.icons{
+.sosial{
     float: right;
 
 }
-.icons i{
-    height: 25px
-    width:25px;
+.sosial i{
+    height: 30px
+    width:30px;
     font-size:20px;
     border-radius:50%;
     
 }
+
+
 .facebook{
     background-color: silver;
     color: white;
@@ -247,7 +249,7 @@ margin: 5px;
 
 }
 
-.icons a:hover{
+.icon a:hover{
     color:#f9ad40;
     
 }
@@ -275,6 +277,7 @@ footer{
 
 .con li{
    display: inline-block;
+   list-style-type: none;
 }
 .icons {
   
@@ -351,3 +354,19 @@ footer{
   background: #000;
 }
 
+
+.marklar {
+  height: 30px;
+}
+
+.boton a:hover{
+  color: #fff;
+ 
+  background: #000;
+}
+
+.boton a{
+  color: #f9ad40;
+
+  background: #000;
+}
