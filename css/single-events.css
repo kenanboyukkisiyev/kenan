@@ -1,0 +1,51 @@
+.rucka{
+    float: left;
+}
+
+.qiymet{
+    float: left;
+    display: flex;
+}
+
+
+
+.us {
+    float: left;
+    margin-top: 180px;
+    margin-left: -75px;
+}
+.us a{
+    color: grey;
+}
+.us a:hover{
+    color: orange;
+}
+
+
+.bu{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.con{
+    display: inline-block;
+    float: right;
+    display: flex;
+}
+
+.tex{
+    text-align: center;
+
+}
+
+
+.book {
+background-color: orange;
+color: #fff;
+
+}
+
+.book:hover{
+background-color:blue;
+color: #fff;
+}

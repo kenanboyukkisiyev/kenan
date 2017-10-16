@@ -1,0 +1,57 @@
+.quantity{
+	width: 30px;
+	text-align: center;
+}
+
+
+#inputLarge{
+	width: 180px;
+}
+
+.Apply{
+	background-color:#f9ad40;
+	color: #fff;
+	margin-left: 180px;
+	margin-top: -70px;
+}
+
+.Apply:hover{
+	background-color:blue;
+	color: #fff;
+}
+
+.hesab{
+	float: right;
+	margin-top: -70px;
+	display: flex;
+}
+
+.qrup{
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 30px;
+	display: flex;
+}
+
+.reng{
+	color: #393a3c;
+}
+
+.qrup p{
+	
+	
+	margin-left: 10px;
+	
+}
+
+.cek{
+	color:#f9ad40;
+	background-color: #fff;
+	border:2px solid #f9ad40; 
+}
+
+.cek:hover{
+	color:#fff;
+	background-color: #f9ad40;
+	 
+}
