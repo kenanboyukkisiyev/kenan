@@ -1,0 +1,23 @@
+.movie{
+	padding: 100px;
+}
+
+
+.sozler{
+	background-color: silver;
+} 
+
+
+.reng a{
+color: #15aecf;
+}
+
+
+.reng a:hover{
+color:#ef910a;;
+}
+
+
+.t{
+	margin-left: 20px;
+}
